@@ -18,10 +18,7 @@ Included are three header files:
 
 Also included is the below named 'main' function that demonstrates how to use the program
 
-1. test_stoch_euler.cpp
-
-
-This program is inspired by BOOST::odeint 
+1. test_stoch_euler.cpp 
 
 
 =======

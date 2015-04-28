@@ -48,8 +48,8 @@ namespace stoch_odeint_explicit_euler {
   {
     state_type d (x.size(),0.0);
     system(x,d,t); 		// obtain the derivative at x
-    std::vector<double>::iterator xi = x.begin();
-    std::vector<double>::iterator di = d.begin();
+    typename state_type::iterator xi = x.begin();
+    typename state_type::iterator di = d.begin();
     std::vector<unsigned>::iterator si = s.begin();
     for(int i=0; i<x.size(); i++) {
       *(xi) = (*xi) + (dt *  (*di))  +  ( pow(dt,0.5) * rand.norm_double() * (*si)  * (*xi))  ; // Euler-Murayama algorithm
