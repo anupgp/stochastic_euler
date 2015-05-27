@@ -27,7 +27,7 @@ Also included is the below named ```main()``` that demonstrates how to use the p
 Compilation
 ===========
 ``
-g++ -std=c++11 test_stoch_euler.cpp -o test_stoch_euler_run
+g++ -std=c++11 -Iinclude example/test_stoch_euler.cpp -o test_stoch_euler_run
 ``
 Execution
 =========
