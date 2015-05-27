@@ -9,9 +9,17 @@ The codes uses some of the packages from the BOOST library.
 
 Included are three header files:
 
-1. boost_random.hpp : This header file creates the required class for generating random numbers using the BOOST library
-2. det_model_hh_post.hpp : header file containing the HH neuron class. This is similar to the classical HH implementaion 
-3. stoch_odeint_explicit_euler.hpp : header file contains the implementaion of stochastic integrator class using explicit_euler method
+boost_random.hpp
+----------------
+C++ This header file creates the required class for generating random numbers using the BOOST library
+
+det_model_hh_post.hpp
+---------------------
+C++ header file containing the HH neuron class. This is similar to the classical HH implementaion
+
+stoch_odeint_explicit_euler.hpp
+-------------------------------
+C++ header file contains the implementaion of stochastic integrator class using explicit_euler method
 
 Also included is the below named 'main' function that demonstrates how to use the program
 
