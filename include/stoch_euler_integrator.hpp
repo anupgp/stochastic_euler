@@ -18,16 +18,16 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef STOCH_EXPLICIT_EULER_HPP_INCLUDED
-#define STOCH_EXPLICIT_EULER_HPP_INCLUDED
+#ifndef STOCH_EULER_INTEGRATOR_HPP_INCLUDED
+#define STOCH_EULER_INTEGRATOR_HPP_INCLUDED
 
 #include <iostream>
 #include <cmath>
 #include <vector>
 
-namespace kurunari {
+namespace stochastic {
   
-  namespace stochastic { 
+  namespace euler { 
     // Euler-Murayama algorithm
     template<class state_type>  
     class explicit_euler
@@ -54,7 +54,7 @@ namespace kurunari {
 	++ni;
       }
     }
-  } // namespace stochastic
+  } // namespace euler
 
     // An observer that writes the time and state vector into stdout 
   struct null_observer 
@@ -89,6 +89,6 @@ namespace kurunari {
     }
   }
 
-}   // namespace kurunari
+}   // namespace stochastic
 
 #endif
