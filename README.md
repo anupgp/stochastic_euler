@@ -3,8 +3,11 @@
 Stochastic Integrator : Explicit Euler Method
 =============================================
 
-This is the README file for my C++ programs that implement a stepper to perfom stochastic integration using explicit Euler method.
-The codes uses some of the packages from the BOOST library.
+This is a C++ program that implements a stepper for stochastic integration that uses explicit Euler method
+
+Dependencies:
+-------------
+1. The C++ BOOST library.
 
 Included are following three header files.
 
